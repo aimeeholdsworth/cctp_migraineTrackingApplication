@@ -203,6 +203,14 @@ div.content {
     text-align: center;
     float: none;
   }
+  
+  div #overview_chart_div, div #multi_chart, div #sleep_chart_div, div #pain_chart_div, div #exercise_chart_div, div #good_sleep_div, div #average_sleep_div,
+  div #breakdown_chart_div, div #woke_pain_chart_div, div #average_pain_div, div #exercise_breakdown_div, div #average_exercise_div{
+    width: 100%;
+  }
+  
+  
+  
 }
 
 
@@ -321,6 +329,7 @@ div.content {
 	float:left;
 	width:18%;
 	margin-left: 5px;
+  margin-bottom:10px;
 	padding:5px;
 	text-align: center;
 	
