@@ -714,6 +714,8 @@
             }]
           },
           options: {
+             responsive: true,
+            maintainAspectRatio: true,
             title: {
               display: true,
               text: 'Headache Days'
@@ -744,6 +746,7 @@
           },
           options: {
             responsive: true,
+             aspectRatio:1.7,
             maintainAspectRatio: true,
             title: {
               display: true,
@@ -800,6 +803,7 @@ const ctxWokePain = document.getElementById('woke_pain_chart').getContext('2d');
           },
           options: {
             responsive: true,
+             aspectRatio:1.5,
             maintainAspectRatio: true,
             title: {
               display: true,
@@ -853,6 +857,7 @@ const ctxWokePain = document.getElementById('woke_pain_chart').getContext('2d');
           },
           options: {
             responsive: true,
+            aspectRatio:1.5,
             maintainAspectRatio: true,
             title: {
               display: true,
@@ -898,7 +903,7 @@ const ctxWokePain = document.getElementById('woke_pain_chart').getContext('2d');
        
           type: 'doughnut',
           data: {
-            labels: ["Light Exercise (10 Mins Or Under)", "Moderate Exercise (11-30 Mins)", "Intense Exercise (Over 30 Mins)"],
+            labels: ["Light Exercise", "Moderate Exercise", "Intense Exercise"],
             datasets: [{
               
               backgroundColor: ["#6ABEB8", "#FEC667", "#FC7B7F"],
@@ -907,6 +912,7 @@ const ctxWokePain = document.getElementById('woke_pain_chart').getContext('2d');
           },
           options: {
             responsive: true,
+            aspectRatio:1.5,
             maintainAspectRatio: true,
             title: {
               display: true,
@@ -1326,15 +1332,3 @@ const ctxWokePain = document.getElementById('woke_pain_chart').getContext('2d');
       
 
 
-
-
-
-
-
-
-
-      
-
-
-
-//C:\Users\aimee\OneDrive\Documents\University\Third Year Part 2\CCTP\Coding\chart.js
